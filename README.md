@@ -126,11 +126,3 @@ Reconstructed components were added with AI assistance; they are not recovered o
 The dual-execution module remains standalone. Integration would require wider fetch/decode, register-file ports, hazard management, and ordered writeback. Its existence does not establish a processor throughput improvement.
 
 The original project résumé reports **90% higher performance than a single-cycle implementation while preserving architectural correctness across assembly programs**. The baseline, benchmark suite, timing assumptions, and raw results were unavailable, so this historical claim has **not been reproduced or independently verified in this port**.
-
-## Publication and privacy
-
-This repository is prepared for public recruiter review. Original private source archives and Git history are not included. Only sanitized project files belong in this repository; never add original submissions, personal identifiers, credentials, or private archives.
-
-Run `python3 scripts/check-publication.py` before publishing changes. For an additional local check, pass `--identity-file` with a private text file containing one identifier per line; its contents are never printed or copied into the repository. The checker is a safeguard, not a guarantee that arbitrary future content is anonymous. Public GitHub ownership remains visible.
-
-No open-source license is granted by this port; public visibility alone does not grant redistribution rights.
